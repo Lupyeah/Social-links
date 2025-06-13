@@ -1,41 +1,41 @@
 html {
-    background: hsl(0, 0%, 8%) ;
+    background: hsl(0, 0%, 8%);
     font-family: Inter, sans-serif;
+    font-size: 16px;
 }
 
 #box {
     text-align: center;
-    justify-content: center;
-    margin: 148px auto;
+    margin: 11rem auto;
     background-color: hsl(0, 0%, 12%);
-    border-radius: 10px;
-    width: 320px;
-    height: 560px;
-    padding: 45px 50px;
+    border-radius: 0.625rem;
+    width: 20rem;
+    height: 35rem;
+    padding: 2.8rem 3.125rem;
 }
 
 #box img {
     border-radius: 50%;
-    width: 100px;
+    width: 6.25rem; 
 }
 
 #box h1 {
-    font-size: 26px;
+    font-size: 1.625rem; 
     color: hsl(0, 0%, 100%);
     font-weight: 600;
-    letter-spacing: 1px;
-    margin: 25px auto -5px auto;
+    letter-spacing: 0.0625rem; 
+    margin: 1.5625rem auto -0.3125rem auto; 
 }
 
 #box h2 {
-    font-size: 14px;
+    font-size: 0.875rem; 
     color: hsl(75, 94%, 57%);
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 #box p {
-    font-size: 15px;
-    margin: 30px auto 30px auto;
+    font-size: 0.9375rem;
+    margin: 1.875rem auto; 
     color: hsla(0, 0%, 100%, 0.802);
 }
 
@@ -43,20 +43,21 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem; 
+    padding: 0;
 }
 
 ul li {
-    font-size: 14px;
+    font-size: 0.875rem; 
     background-color: hsl(0, 0%, 20%);
     color: white;
     font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: -40px;
-    padding: 15px 10px;
-    border-radius: 10px;
-    transition: background 0.3s;
-    transition: color 0.3s;
+    letter-spacing: 0.0625rem;
+    margin-left: 0;
+    padding: 0.9375rem 0.625rem; 
+    border-radius: 0.625rem;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
 }
 
 ul li:hover {
@@ -66,10 +67,12 @@ ul li:hover {
 
 footer {
     text-align: center;
-    justify-content: center;
     color: white;
+    margin-top: 14rem;
+    font-size: 0.875rem;
 }
 
 footer a {
-    color:hsl(75, 94%, 57%) ;
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
 }
