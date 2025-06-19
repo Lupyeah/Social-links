@@ -19,6 +19,10 @@ Uma preview de um cartão de um blog
 
 - [Para ver no site](https://lupyeah.github.io/Social-links/)
 
+## 📋 Funcionalidades
+
+- 📌 Uma página com informações sobre a pessoa
+- ❗ Botões para mandar a pessoa no link
 ---
 
 Feito pela Lupy com ajuda do Frontend
